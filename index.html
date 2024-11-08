@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio Website HTML CSS Only | codehal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="logo">Peter.</a>
+    
+            <nav class="navbar">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Services">Services</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#Contact Me">Contact Me</a>
+            </nav>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+              <h1>Hi, I'm P.N.Ng'ang'a</h1> 
+              <h3>Frontend Developer & Data Analyst</h3> 
+              <p>A passionate Frontend Developer and a Data Analyst, let's do something big together. </p>
+              <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+              </div>
+            </div>
+    
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+    
+            </div>
+            <span class="home-imgHover"></span>  
+    
+    
+        </section>
+
+         <!-- Page 2 -->
+         <div id="page2" class="page">
+            <div class="tabs">
+                <button onclick="showTab('About')">About</button>
+                <button onclick="showTab('Services')">Services</button>
+                <button onclick="showTab('Portifolio')">Portifolio</button>
+                <button onclick="showTab('Contact')">Contact Me</button>
+            </div>
+
+            <div id="About" class="tab-content tab-active">
+                <h2 id="About">About</h2>
+                
+                <ul>
+                    <li><strong>Bachelor of Science in Applied Statistics</strong>, Cooperative University Main Branch, Karen, Nairobi
+                        <br>Relevant Coursework: Statistical Analysis,<br> Data Interpretation, <br>Mathematical Modeling,<br>presentation.
+                    </li>
+                    <li><strong>Full-Stack Development</strong>, BCH
+                        <br>Tools and Technologies:HTML, CSS, JavaScript (React, Angular, Vue.js) ,<br>CSS preprocessors (SASS, LESS), <br>Version control (Git),<br>Front-end frameworks (React, Vue.js, Angular),<br>Web design tools (Adobe XD, Figma, Sketch).
+                    </li>
+                    <li><strong>Several Online Certifications:</strong> Coursera</li>
+                    <li><strong>Secondary Education:</strong> Jomo Kenyatta Boys High School</li>
+                    <li><strong>Additional Certifications:</strong> Jomo Kenyatta Boys High School</li>
+                    <br>Certificate Name:Peer Counseling,<br>Drug and Substance Abused,<br>Mental Awareness,<br>Class Representative,<br>Computer System Project.
+                </ul>
+            </div>
+
+
+            
+            <div id="Services" class="Services tab-content tab-active">
+                    <h2 id="Services">Services</h2>
+            
+                <ul>
+                    <li>Data Colletion</li>
+                    <br>Gathering data from various sources such as databases, spreadsheets, surveys, web scraping, APIs, or company records,<br>Ensuring data is accurate, consistent, and up-to-date.<br>
+                    <li>Data Cleaning and Preparation</li>
+                    <br>Removing duplicates, correcting errors, filling in missing values, and standardizing data to make it usable,<br>Transforming raw data into a format suitable for analysis (e.g., normalizing data, converting it into structured formats),<br>
+                    <li>Data Exploration and Analysis</li>
+                    <br>Exploring the data to identify patterns, trends, and insights,<br>Using tools like Excel, SQL, Python, or R for analysis,<br>Creating visualizations (charts, graphs, dashboards) to help make sense of the data, often using tools like Tableau, Power BI, or Matplotlib   
+                    <li>Reporting and Communication</li>
+                    <br>Presenting findings to stakeholders in a clear, actionable way,<br>Writing reports or creating presentations that summarize key insights, trends, and recommendations,<br>Communicating complex data in simple terms for non-technical audiences,<br>
+                    <li>Business Insight Generation</li>
+                    <br>Translating data insights into actionable recommendations that can improve business performance,<br>Identifying opportunities or areas for improvement, such as optimizing processes, increasing revenue, or reducing costs,<br>
+                    <li>Supporting Decision-Making</li>
+                    <br>Collaborating with other departments (marketing, finance, operations, etc.) to provide data-driven recommendations,<br>Supporting strategic decisions by providing evidence-based insights,<br>
+                    <li> FRONT-END DEVELOPMENT</li>
+                    <br>Design Implementation: Turn design mockups into functional web pages using HTML, CSS, and JavaScript,<br>User Interface (UI): Ensuring the website is visually appealing, easy to navigate, and responsive,<br>Interactivity: Writing JavaScript to add interactive features like buttons, forms, carousels, and animations,<br>Responsive Design: Ensuring the website looks good and functions well on all screen sizes using frameworks like Bootstrap or through custom CSS,<br>
+                    <li>Cosultation Services</li>
+                </ul>
+            </div>
+            
+            
+
+            <div id="Portfolio tab-active" class="Portifolio tab-content tab-active">
+                <h2 id="Portifolio">Projects</h2>
+                <div class="projects">
+                     <!-- Project 1 -->
+                     <div class="project-card">
+                        <img src="C:/Users/PC/DesktopWEB DEVELOPMENT/portifolio card.png" alt="Project 1 Screenshot">
+                        <div class="content">
+                        <h3>Project 1: Personal Website</h3>
+                        <p>This is a personal website where I showcase my skills and projects. It is built using HTML,and CSS.</p>
+                        <a href="https://github.com/GeniusPeter-alt/Peter.git" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+
+            <!--project 2-->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/500x300" alt="Project 2 Open on GitHub">
+                <div class="content">
+                    <h3>Project 2: Statistics Data Visualisation</h3>
+                    <p>The project pdf shows how data visualisation and plotting is essential in Statistics. Built with R software.</p>
+                    <a href="https://github.com/GeniusPeter-alt/Statistics-Data-Visualisation" target="_blank">View Live Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3 -->
+        <div id="page3" class="page">
+            <div class="contact-form tab-active">
+                <h2 id="Contact Me">Contact Me</h2>
+
+                <form action="mailto:ndungupeter449@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Email</button>
+                </form>
+                <p>You can also reach me via SMS or call at <strong>0743729799</strong>.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => {
+                tab.classList.remove('tab-active');
+                if (tab.id === tabName) {
+                    tab.classList.add('tab-active');
+                }
+            });
+        }
+        </script>
+    
+    
+    
+
+    
+    
+</body>
+</html>
+    
+    
+
+
+    
