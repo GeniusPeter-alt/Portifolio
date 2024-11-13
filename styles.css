@@ -61,8 +61,8 @@ body {
 .home {
     height: 100vh;
     background: url('C:/Users/PC/Pictures/Saved Pictures/Passport.jpg')no-repeat; 
-    background-size: cover;
-    background-position: center;
+    background-size: cov;
+    background-position: top;
 
     display: flex;
     align-items: center;
@@ -438,14 +438,7 @@ li strong {
     }
 }
 /* Page 2 styling */
-.tabs {
-    display: flex;
-    justify-content: space-around;
-    background-color: #007BFF;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
+
 
 .tabs button {
     background: none;
